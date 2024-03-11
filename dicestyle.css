@@ -1,0 +1,105 @@
+/* img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    position:relative;
+    left: 10%;
+}
+
+.die{
+    width: 350px;
+    height: 300px;
+    background-color: azure;
+    align-items: center;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    border: 2px;
+    border-radius: 40%;
+}
+
+.die h2{
+    left:15%;
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: brown;
+}
+ .die button{
+    position: absolute;
+    left: 25%;
+    top:75%;
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+} */
+
+body{
+    background-color: #c30010;
+}
+.die{
+    width: 450px;
+    height: 400px;
+    background-color: #ffff;
+    position: absolute;
+    top: 27%;
+    left: 33%;
+    border-radius: 20px;
+}
+
+.d1{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top: 10%;
+    left: 20%;
+}
+.d2{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top: 10%;
+    left: 55%;
+}
+
+die > .container{
+    display: flex;
+}
+
+.display{
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 40%;
+}
+button{
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px;
+    cursor: pointer;
+    position: relative;
+    left: -5%;
+    background-color: #c30010;
+    font-size: larger;
+    color: white;
+}
+.sum{
+    position: relative;
+    left: -3%;
+}
+span{
+    color:#c30010;
+    font-size: 29px;
+}
+.display h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
